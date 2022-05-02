@@ -7,7 +7,7 @@
 }
 
 nav{
-background-color: cornflowerblue;
+background-color: rgb(24, 77, 176);
 padding: 1px 1px;
 display: flex;
 justify-content: space-between;
@@ -23,6 +23,8 @@ nav h1{
     border-radius: 10px;
     padding: 15px;
     margin-left:5px;  
+    margin-bottom: 10px;
+    text-shadow: 5px 5px black;
 }
 
 
@@ -30,6 +32,7 @@ nav ul {
     width:fit-content;
     list-style: none;
     margin-right:10px;
+    margin-bottom: 10px;
 }
 
 nav ul li{
@@ -45,10 +48,11 @@ nav ul li{
 nav ul li a{
 display:inline-block;
 text-decoration: none;
-color:darkblue;
+color:white;
 font-size: 30px;
 font-weight: bold;
 padding:10px;
+text-shadow: 5px 5px black;
 }
 
 a:hover{
@@ -82,28 +86,30 @@ aside ul{
     font-size:48px;
     color:white;
     margin-right:10px;
+    margin-top: 10px;
     
 }
 aside ul li{
     padding:25px;
     border-color: white;
+    text-shadow: 5px 5px black;
     
 }
 .content{
-    background-color: cornflowerblue;
+    background-color: rgb(24, 77, 176);
     width:100%;
     
 }
 
 #aboutMe{
-/* height:100px; */
+
 border-right-style:solid;
 
 
 }
 #work{
 
-/* height:400px; */
+
 border-right-style:solid;
 }
 
