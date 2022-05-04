@@ -1,49 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
+    <link rel="stylesheet" href="./assets/css/style.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Taylor Guenthner Portfolio</title>
-    <link rel="stylesheet" href="./assets/css/reset.css" />
-    <link rel="stylesheet" href="/assets/css/styles.css">
 </head>
-
-<nav>
-    <h1>Taylor Guenthner</h1>
-
-    <ul>
-        <li><a href="#aboutMe">About Me</a></li>
-        <li><a href="#work">Work</a></li>
-        <li><a href="#contactMe">Contact Me</a></li>
-        <li><a href="#">Resume</a></li>
-
-    </ul>
-
-</nav>
-
-<img class="banner" src="/assets/images/banner2.jpeg">
-
-<main>
-    
-    <aside>
-        <ul>
-            <li id="aboutMe" class="row1">About Me</li>
-            <li id="work" class="row2">Work</li>
-            <li id="contactMe" class="row3">Contact Me</li>
-
-        </ul>
-    </aside>
-    <section class="content">
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero, quos tempore natus exercitationem, reiciendis,
-        sint ex quaerat unde error illo perferendis distinctio. Eius quos dolorum mollitia quia nam sequi cum!
-
-    </section>
-</main>
-
 <body>
+    <nav>
+        <h1>Taylor Guenthner</h1>
+        <ul>
+            <li><a href="#AboutMe">About Me</a></li>
+            <li><a href="#Work">Work</a></li>
+            <li><a href="#contactMe">Contact Me</a></li>
+            <li><a href = "./assets/Resume.pdf" download="Taylor Guenthner Resume">Resume</a></li>
+        </ul>
+    </nav>
+    <img class="banner" src="/assets/images/banner2.jpeg">
+    <section class = "row">
+        <aside class ="col1" id="AboutMe">
+            <h1>About Me</h1>
+        </aside>
+       
+        <div class="col2">
+            <img id="profileImg" src="./assets/image_6483441.JPG">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta debitis, veniam quisquam ex cupiditate assumenda quos earum enim ullam accusamus provident. Nihil aut illo eius?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta debitis, veniam quisquam ex cupiditate assumenda quos earum enim ullam accusamus provident. Nihil aut illo eius?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta debitis, veniam quisquam ex cupiditate assumenda quos earum enim ullam accusamus provident. Nihil aut illo eius?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta debitis, veniam quisquam ex cupiditate assumenda quos earum enim ullam accusamus provident. Nihil aut illo eius?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta debitis, veniam quisquam ex cupiditate assumenda quos earum enim ullam accusamus provident. Nihil aut illo eius?</p>
+
+        </div>
+        </section>
+    
+
+    <div class="row">
+        <aside class ="col1" id="Work"><h1>Work</h1></aside>
+        <div class="col2 appsDiv">
+            <div class="apps">
+                <a href="index.html"><img  src="./assets/images/work1.jpeg">
+                <h2>App 1</h2></a>
+            </div>
+            <div class="apps">
+                <a href="index.html"><img src="./assets/images/work2.jpeg">
+                <h2>App 2</h2></a>
+            </div>
+            <div class="apps">
+                <a href="index.html"><img src="./assets/images/work2.jpeg">
+                <h2>App 3</h2></a>
+            </div>
+            <div class="apps">
+                <a href="index.html"><img src="./assets/images/work2.jpeg">
+                <h2>App 4</h2></a>
+            </div>
+            <div class="apps">
+                <a href="index.html"><img src="./assets/images/work2.jpeg">
+                <h2>App 5</h2></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <aside class="col1" id="contactMe"><h1>Contact Me</h1></aside>
+        <div class="col2">
+            <ul>
+                <li>770 337 7073</li>
+                <li><a href="#">LinkedIn</a></li>
+                <li><a href="#">GitHub</a></li>
+            </ul>
+        </div>
+    </div>
 
 </body>
-
 </html>
