@@ -213,3 +213,10 @@ margin-top: 14px;
    }
     
 }
+@media screen and (min-width:1550px){
+
+    .col1{
+        width:15%;
+    }
+}
+
