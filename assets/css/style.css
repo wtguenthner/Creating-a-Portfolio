@@ -97,6 +97,7 @@ aside h1{
     
 }
 
+
 .apps{
     position: relative;
     margin: 5px;
@@ -191,6 +192,11 @@ margin-top: 14px;
         display:flex;
         border-right-style:none;
     }
+    .col2{
+        text-align: center;
+        
+    }
+    
    
 }
 @media screen and (max-width:1150px) {
@@ -210,9 +216,12 @@ margin-top: 14px;
 
    nav ul{
        width: auto;
+    
    }
+  
     
 }
+
 @media screen and (min-width:1550px){
 
     .col1{
