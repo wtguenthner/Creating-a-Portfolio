@@ -173,7 +173,7 @@ margin-top: 14px;
 @media screen and (max-width:768px) {
     .apps{
 
-        width:100%;
+        width: 100%;
     }
     #contactInfo{
         display: flex;
@@ -184,10 +184,7 @@ margin-top: 14px;
         border-bottom-style: none;
     }
 
-    aside{
-        
-        /* padding-right:5px; */
-    }
+   
     .col1{
         display:flex;
         border-right-style:none;
@@ -196,6 +193,7 @@ margin-top: 14px;
         text-align: center;
         
     }
+    
     
    
 }
