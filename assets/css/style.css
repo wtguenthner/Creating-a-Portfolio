@@ -101,6 +101,7 @@ aside h1{
     position: relative;
     margin: 5px;
     width: 48%;
+    height: 40vh;
     margin-left: 0;
     margin-right: 0;
     border-style: solid;
@@ -166,4 +167,49 @@ float: left;
 margin-right: 10px;
 margin-top: 14px;
 
+}
+
+@media screen and (max-width:768px) {
+    .apps{
+
+        width:100%;
+    }
+    #contactInfo{
+        display: flex;
+        flex-direction:column;
+        
+    }
+    #contactInfo li{
+        border-bottom-style: none;
+    }
+
+    aside{
+        
+        /* padding-right:5px; */
+    }
+    .col1{
+        display:flex;
+        border-right-style:none;
+    }
+   
+}
+@media screen and (max-width:1150px) {
+    nav{
+        flex-direction: column;
+        text-align: center;
+        
+    }
+    nav h1{
+       width:90%;
+       
+    }
+    nav h1{
+        height: fit-content;
+        
+    }
+
+   nav ul{
+       width: auto;
+   }
+    
 }
