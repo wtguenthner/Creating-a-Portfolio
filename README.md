@@ -1,4 +1,19 @@
-#My Portfolio
-In this project, we created a page that displays an About Me, Work and Contact Me section. The navigation bar at the top links to the corresponding section on the index page and the links in the Contact section display my GitHub and LinkedIn profiles. The work section of the pages links to our future projects.
+# Creating a Portfolio
 
-The page adapts to the screen size of the users monitor. In doing so, it makes the information more accessible to the viewer depeding on the size.
+In this project, I created a portfolio for my current and future work as a software engineer. The pages displays an about me section, a section for my projects and contact info for my LinkedIn, GitHub and phone number.
+
+
+## Demo
+
+https://wtguenthner.github.io/Creating-a-Portfolio/
+
+
+## Screenshots
+
+![application](assets/images/screen_shot.png)
+
+
+## Lessons Learned
+
+While creating my portfolio, I learned how to apply CSS to my HTML to give it enhanced styles and visuals. I also learned how to take advantage of attributes such as flex-box and position to format my page.
+
